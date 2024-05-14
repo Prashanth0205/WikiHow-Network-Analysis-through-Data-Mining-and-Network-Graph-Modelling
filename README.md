@@ -2,8 +2,6 @@
 
 This segment focuses on the preliminary stage of the project, which involves the extraction of valuable information from WikiHow pages through web scraping techniques. The primary objective is to gather comprehensive data about various articles, including their main headings, subheadings, categories, ratings, views, and other pertinent details. By utilizing libraries such as BeautifulSoup and requests in Python, the code accesses and parses the HTML content of WikiHow pages, extracting the desired information. Once extracted, the data is structured and cleaned to ensure consistency and reliability. This phase serves as the foundation for subsequent analysis, providing a rich dataset that captures the breadth and depth of content available on WikiHow.
 
-![WikiHow Graph](Network Graph.png)
-
 ## Part 1: Data Mining and Processing
 
 1. Web Scraping: Utilization of Python libraries like BeautifulSoup and requests for fetching and parsing HTML data from WikiHow pages.
@@ -13,6 +11,8 @@ This segment focuses on the preliminary stage of the project, which involves the
 5. Handling Unwanted URLs: Filtering out unwanted URLs and irrelevant data to focus only on WikiHow articles related to the specified categories.
 6. Batch Processing: Iterative processing of multiple WikiHow pages to accumulate a comprehensive dataset for analysis.
 7. Data Storage: Saving the cleaned and structured data into a CSV file for further analysis and visualization.
+
+Code for [Data Mining]() and [Data Cleaning]() 
 
 ## Part 2: Graph Construction and Analysis
 
