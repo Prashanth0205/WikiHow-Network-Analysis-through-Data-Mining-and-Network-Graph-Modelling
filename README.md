@@ -21,8 +21,8 @@ Code for [Data Mining](Webscrapping_wikihow_new.ipynb) and [Data Cleaning](clean
 3. Visualization: Visualization of the network graph using Matplotlib to provide a visual representation of the connections between main headings and categories/sub-categories.
 4. Graph Metrics Calculation: Calculation of various graph metrics such as degree distribution, average degree, PageRank, diameter, and centrality measures (closeness and betweenness centrality).
 5. Statistical Analysis: Statistical analysis of graph metrics to gain insights into the structure and characteristics of the WikiHow network.
+6. Visualization Enhancement: Enhancement of visualizations with additional features such as highlighting major nodes, plotting histograms for centrality measures, and displaying top PageRank values.
+7. Insight Generation: Generation of insights from the analyzed graph metrics to understand the importance and centrality of different categories/sub-categories within the WikiHow network.
+8. Presentation of Results: Presentation of results through descriptive statistics, visualizations, and key findings to facilitate interpretation and understanding of the WikiHow network structure.
 
 Code for [Network Visualization and Analysis](Network graph.ipynb)
-7. Visualization Enhancement: Enhancement of visualizations with additional features such as highlighting major nodes, plotting histograms for centrality measures, and displaying top PageRank values.
-8. Insight Generation: Generation of insights from the analyzed graph metrics to understand the importance and centrality of different categories/sub-categories within the WikiHow network.
-9. Presentation of Results: Presentation of results through descriptive statistics, visualizations, and key findings to facilitate interpretation and understanding of the WikiHow network structure.
