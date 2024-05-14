@@ -4,8 +4,21 @@ This segment focuses on the preliminary stage of the project, which involves the
 
 ## Part 1: Data Mining and Processing
 
-This part of the project involves extracting relevant information from WikiHow pages using web scraping techniques. The data mining process includes obtaining main headings, subheadings, categories, ratings, views, and other useful information from WikiHow articles. The extracted data is then cleaned and processed to create a structured dataset. This dataset serves as the foundation for analyzing category relationships and key topics in WikiHow articles.
+1. Web Scraping: Utilization of Python libraries like BeautifulSoup and requests for fetching and parsing HTML data from WikiHow pages.
+2. Data Extraction: Extraction of relevant information such as main headings, sub-headings, categories, co-authors, views, etc., from the parsed HTML content.
+3. Cleaning and Preprocessing: Removal of unwanted HTML tags, formatting inconsistencies, and noise from the extracted data to ensure consistency and accuracy.
+4. Structuring Data: Organizing the extracted information into a structured format such as a pandas DataFrame for easy manipulation and analysis.
+5. Handling Unwanted URLs: Filtering out unwanted URLs and irrelevant data to focus only on WikiHow articles related to the specified categories.
+6. Batch Processing: Iterative processing of multiple WikiHow pages to accumulate a comprehensive dataset for analysis.
+7. Data Storage: Saving the cleaned and structured data into a CSV file for further analysis and visualization.
 
 ## Part 2: Graph Construction and Analysis
 
-In the second part of the project, the focus shifts to analyzing the extracted dataset to uncover meaningful insights into category relationships and key topics within the WikiHow platform. Network analysis techniques, implemented using the NetworkX library in Python, are employed to construct a graph representation of the relationships between different categories and subcategories. By modeling WikiHow articles as nodes and their connections as edges, the graph offers a visual and quantitative understanding of the interrelatedness and significance of various topics. Metrics such as degree distribution, PageRank, diameter, and centrality measures are calculated to quantify the importance and centrality of different categories and topics within the WikiHow network. Additionally, visualizations such as network graphs and histograms are generated to illustrate the structure of the WikiHow network and identify prominent categories and topics. Through this comprehensive analysis, valuable insights are gained into the underlying structure and content distribution of WikiHow articles, facilitating a deeper understanding of the platform's knowledge base and user interests.
+1. Network Graph Creation: Creation of a NetworkX graph to represent the relationships between main headings and their corresponding categories/sub-categories extracted from WikiHow articles.
+2. Node and Edge Addition: Addition of nodes representing main headings and categories/sub-categories to the graph, with edges connecting them to depict their relationships.
+3. Visualization: Visualization of the network graph using Matplotlib to provide a visual representation of the connections between main headings and categories/sub-categories.
+4. Graph Metrics Calculation: Calculation of various graph metrics such as degree distribution, average degree, PageRank, diameter, and centrality measures (closeness and betweenness centrality).
+5. Statistical Analysis: Statistical analysis of graph metrics to gain insights into the structure and characteristics of the WikiHow network.
+6. Visualization Enhancement: Enhancement of visualizations with additional features such as highlighting major nodes, plotting histograms for centrality measures, and displaying top PageRank values.
+7. Insight Generation: Generation of insights from the analyzed graph metrics to understand the importance and centrality of different categories/sub-categories within the WikiHow network.
+8. Presentation of Results: Presentation of results through descriptive statistics, visualizations, and key findings to facilitate interpretation and understanding of the WikiHow network structure.
