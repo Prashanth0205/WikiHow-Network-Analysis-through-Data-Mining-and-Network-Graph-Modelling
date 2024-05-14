@@ -27,4 +27,4 @@ Code for [Data Mining](Webscrapping_wikihow_new.ipynb) and [Data Cleaning](clean
 7. Insight Generation: Generation of insights from the analyzed graph metrics to understand the importance and centrality of different categories/sub-categories within the WikiHow network.
 8. Presentation of Results: Presentation of results through descriptive statistics, visualizations, and key findings to facilitate interpretation and understanding of the WikiHow network structure.
 
-Code for [Network Visualization](Network graph.ipynb)
+Code for [Network Visualization and Analysis](Network graph.ipynb)
